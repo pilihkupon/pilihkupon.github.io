@@ -1,0 +1,2 @@
+grep -rl "pilihkupon" . | xargs sed -i "s/pilihkupon/new-name/g"
+grep -rl "Pilih Kupon" . | xargs sed -i "s/Pilih Kupon/New Name/g"
